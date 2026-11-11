@@ -1,0 +1,20 @@
+{
+  "name": "next-snippets",
+  "displayName": "next-snippets",
+  "description": "personal next snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.145.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
