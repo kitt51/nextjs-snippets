@@ -4,4 +4,4 @@
 
 ## First Version
 
-Personal nextjs snippets
+Nextjs snippets for typescript
