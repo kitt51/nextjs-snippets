@@ -1,4 +1,4 @@
-name: Publish OVSX extension
+name: Publish OVSX snippet extension
 on:
   push:
     branches: ["main"]
@@ -12,7 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v5
-      - run: npm ci
       - run: npx ovsx publish --trusted-publishing
 
 
